@@ -1,6 +1,6 @@
 bgzip merged_200_format.vcf
 tabix -p vcf merged_200_format.vcf.gz
-vg construct -rref.fa -v merged_200_format.vcf.gz >x.vg
+vg construct -r ref.fa -v merged_200_format.vcf.gz >x.vg
 vg view x.vg >x.gfa
 vg index -x x.xg -g x.gcsa -k 16 x.vg
 
