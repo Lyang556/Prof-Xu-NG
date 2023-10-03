@@ -13,7 +13,7 @@ NUM_ITER=2
 CNS_OUTPUT_COVERAGE=45
 CLEANUP=0
 USE_GRID=false
-GRID_NODE=0`
+GRID_NODE=0
 FSA_OL_FILTER_OPTIONS="--max_overhang=-1 --min_identity=-1 --coverage=40"
 FSA_ASSEMBLE_OPTIONS=""
 FSA_CTG_BRIDGE_OPTIONS="--dump --read2ctg_min_identity=80 --read2ctg_min_coverage=4 --read2ctg_max_overhang=500 --read_min_length=5000 --ctg_min_length=1000 --read2ctg_min_aligned_length=5000 --select_branch=best"
